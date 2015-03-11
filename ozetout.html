@@ -4,6 +4,21 @@
 		<title>Site OzéTout</title>
 		<meta charset = "utf-8"/>
 		<link rel="stylesheet" href="./style/main.css">
+		<script
+			src="http://maps.googleapis.com/maps/api/js">
+		</script>
+		<script>
+			function initialize() {
+			  var mapProp = {
+				/*center:new google.maps.LatLng(51.508742,-0.120850),*/
+				center:new google.maps.LatLng(46.5429,-72.748),
+				zoom:9,
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+			  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
 	</head>
 <body>
 	<nav>
@@ -118,6 +133,7 @@
 			Duis sed accumsan arcu. Nam sit amet vulputate nunc. Donec aliquam porttitor justo ac faucibus.<br/> 
 			Curabitur vel dignissim est. Pellentesque quis vehicula lorem, eget sagittis lorem. Mauris id convallis purus. Quisque.<br/> 
 			</p>
+			<div id="googleMap" style="width:800px;height:380px;"></div>
 		</section>
 		<footer>
 
