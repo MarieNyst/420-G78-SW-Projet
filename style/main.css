@@ -1,23 +1,6 @@
 /* style appliqué sur toutes les pages */
 
-body{/*Section corps*/
+body
+{
 	 background:green;
-	}
-h1	{
-	 
-	}
-h2	{/*Titre 2 utilisé pour chaque section*/
-	
-	}
-.map{/*Pour faire afficher la carte Google*/
-	 width:800px;
-	 height:380px;
-	}
-nav	{/*Barre de titre à gauche en haut*/
-	margin:0;
-	width:10vw;
-	padding:0px;
-	/*position:fixed;*/
-	top: 0px;
-	/*right: 0px;*/
-	}	
+}
