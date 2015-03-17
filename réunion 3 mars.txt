@@ -1,21 +1,20 @@
-﻿Accueil
-Producteur -> carte, lien vers les producteurs
-Ozé hub café
-Exemples de menu (traiteur)
-Contact
+﻿Sections :
+- Accueil
+- Producteur -> carte, lien vers les producteurs
+- Ozé hub café
+- Exemples de menu (traiteur)
+- Contact
 
-exemples d'évènements
-principalement traiteur
-mention pour ozéhub
+Contenu :
+- exemples d'évènements :principalement traiteur
+- mention pour ozéhub
+- mettre en avant les producteurs
+- Photos
 
-mettre en avant les producteurs
-Photos
-
+Design :
 design intéressant : http://www.fredelys.com
 image fixe avec du texte en transparence
-
 festif, amusant
-
 si possible, un logo qu'on puisse réduire et que ce soit encore compréhensible
 
 
