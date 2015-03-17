@@ -1,0 +1,45 @@
+/* style appliqué sur toutes les pages */
+
+body{/*Section corps*/
+	 background: green;
+	}
+nav ul{
+background-image:url(../media/bois.jpg);
+	/*background-color:silver;*/
+	border: solid black 1px;
+	list-style: none;
+	position: fixed;
+	left: 0px;
+	top: 35%;
+	width: 100px;
+	margin-top: -2.5em;
+	margin-left: -40px;
+	}
+nav li{
+	background-color: brown;
+	display: inline-block;
+	list-style: none;
+	border: solid black 1px;
+	margin: 6px;
+	}
+nav a{
+	color:white;
+	}
+.main{
+	width: 70%;
+	margin: auto;
+	}
+section{
+	height: 65vw;
+}	
+h1	{
+	 
+	}
+h2	{/*Titre 2 utilisé pour chaque section*/
+	
+	}
+.map{/*Pour faire afficher la carte Google*/
+	 width:800px;
+	 height:380px;
+	}
+	
